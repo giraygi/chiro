@@ -107,6 +107,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/GO_0003824 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/GO_0003824"/>
+    
+
+
     <!-- http://purl.obolibrary.org/GO_0016088 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/GO_0016088"/>
@@ -233,6 +239,30 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#inhibitor_of"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009512"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23924 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_23924">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#inhibitor_of"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/GO_0003824"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#inhibitor_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/GO_0003824"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -425,6 +455,30 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#inhibitor_of"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35472 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_35472">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_23888"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#inhibitor_of"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0006954"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#inhibitor_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0006954"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -778,6 +832,54 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#activator_of"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0048589"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37955 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_37955">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#antagonist_of"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001422"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#antagonist_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001422"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37961 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_37961">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#antagonist_of"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001423"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#antagonist_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001423"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -1425,6 +1527,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_49205 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_49205">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#inhibitor_of"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000005373"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#inhibitor_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000005373"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_50112 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_50112">
@@ -1860,6 +1986,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50741 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_50741">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#agonist_of"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000013736"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#agonist_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000013736"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_50750 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_50750">
@@ -1953,6 +2103,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/GO_0016088"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50905 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_50905">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#destabilizer_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009790"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
     </rdf:Description>
     
 
@@ -2406,6 +2569,30 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#inhibitor_of"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11676"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_55351 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_55351">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#antagonist_of"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001247"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#antagonist_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001247"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -4102,6 +4289,78 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_64154 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_64154">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#agonist_of"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001564"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#agonist_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001564"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_64155 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_64155">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#agonist_of"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001565"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#agonist_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001565"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_64176 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_64176">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#antagonist_of"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001564"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#antagonist_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001564"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_64338 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_64338">
@@ -4144,6 +4403,30 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#modulator_of"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005326"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_64411 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_64411">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#inhibitor_of"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000007961"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#inhibitor_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000007961"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -4240,6 +4523,54 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#inhibitor_of"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000024130"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_64696 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_64696">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#inhibitor_of"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0008415"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#inhibitor_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0008415"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_64697 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_64697">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#inhibitor_of"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000015390"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#inhibitor_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000015390"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -4544,6 +4875,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_65057 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_65057">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#agonist_of"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001575"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#agonist_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001575"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_65064 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_65064">
@@ -4713,6 +5068,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_66921 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_66921">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#inhibitor_of"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0004718"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#inhibitor_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0004718"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_66956 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_66956">
@@ -4764,7 +5143,24 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_67079 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_67079">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#inhibitor_of"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0006954"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#inhibitor_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0006954"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </rdf:Description>
     
 
@@ -4860,6 +5256,78 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#agonist_of"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0003708"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_67268 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_67268">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_64947"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#inhibitor_of"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0008907"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#inhibitor_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0008907"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_68494 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_68494">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_52206"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#inhibitor_of"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0006915"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#inhibitor_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0006915"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_68495 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_68495">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_52206"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#inducer_of"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0006915"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#inducer_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0006915"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -5209,6 +5677,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0004718 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0004718"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0004721 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0004721"/>
@@ -5479,6 +5953,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0006915 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006915"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006954 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006954"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0008066 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008066"/>
@@ -5527,6 +6013,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0008415 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008415"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0008792 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008792"/>
@@ -5536,6 +6028,12 @@
     <!-- http://purl.obolibrary.org/obo/GO_0008825 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008825"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0008907 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008907"/>
     
 
 
@@ -5572,6 +6070,12 @@
     <!-- http://purl.obolibrary.org/obo/GO_0009767 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009767"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0009790 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009790"/>
     
 
 
@@ -5908,6 +6412,66 @@
     <!-- http://purl.obolibrary.org/obo/PR_000001221 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001221"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001247 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001247"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001422 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001422"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001423 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001423"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001564 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001564"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001565 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001565"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001575 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001575"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000005373 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005373"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007961 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007961"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000013736 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000013736"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000015390 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000015390"/>
     
 
 
