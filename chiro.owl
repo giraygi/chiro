@@ -6145,6 +6145,24 @@
     
 
 
+    <!-- http://www.example.org/RoSmOik0dyt7cAYFdcbLr6 -->
+
+    <owl:Class rdf:about="http://www.example.org/RoSmOik0dyt7cAYFdcbLr6">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/R7LlLQapLQHJifywbZgDEE1"/>
+        <rdfs:label>cvb</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/RsZ8VtCdd4oXGIFVjGLoJ0 -->
+
+    <owl:Class rdf:about="http://www.example.org/RsZ8VtCdd4oXGIFVjGLoJ0">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/RoSmOik0dyt7cAYFdcbLr6"/>
+        <rdfs:label>veremedi</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
