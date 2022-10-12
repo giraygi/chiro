@@ -109,7 +109,9 @@
 
     <!-- http://purl.obolibrary.org/GO_0003824 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/GO_0003824"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/GO_0003824">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0004718"/>
+    </owl:Class>
     
 
 
@@ -6124,6 +6126,24 @@
     <owl:Class rdf:about="http://www.example.org/R7LlLQapLQHJifywbZgDEE1">
         <rdfs:subClassOf rdf:resource="http://www.example.org/RDViNDsq0m29RtsQhJHQEvC"/>
         <rdfs:label>ccxycy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/R86C4o85YNaUdimxA7i8x9N -->
+
+    <owl:Class rdf:about="http://www.example.org/R86C4o85YNaUdimxA7i8x9N">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/R9fKFzKerhG956CWRsbLZep"/>
+        <rdfs:label>dfgdd</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/R9fKFzKerhG956CWRsbLZep -->
+
+    <owl:Class rdf:about="http://www.example.org/R9fKFzKerhG956CWRsbLZep">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0001660"/>
+        <rdfs:label>dfgdfgd</rdfs:label>
     </owl:Class>
     
 
