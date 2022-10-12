@@ -457,30 +457,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_35472 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_35472">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_23888"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#inhibitor_of"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0006954"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#inhibitor_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0006954"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_35493 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_35493">
@@ -4296,30 +4272,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_64696 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_64696">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24432"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#inhibitor_of"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0008415"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#inhibitor_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0008415"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_64697 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_64697">
@@ -4886,24 +4838,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_67079 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_67079">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24432"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#inhibitor_of"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0006954"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#inhibitor_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0006954"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </rdf:Description>
     
 
@@ -5599,6 +5534,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0005623 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005623"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0005739 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005739"/>
@@ -5653,12 +5594,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GO_0006954 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006954"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GO_0008066 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008066"/>
@@ -5704,12 +5639,6 @@
     <!-- http://purl.obolibrary.org/obo/GO_0008373 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008373"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0008415 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008415"/>
     
 
 
@@ -6148,11 +6077,29 @@
     
 
 
+    <!-- http://www.example.org/RCq0uwg1GrYXAC3o6tOhn7w -->
+
+    <owl:Class rdf:about="http://www.example.org/RCq0uwg1GrYXAC3o6tOhn7w">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/RsZ8VtCdd4oXGIFVjGLoJ0"/>
+        <rdfs:label>olabilirmi</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.example.org/RDViNDsq0m29RtsQhJHQEvC -->
 
     <owl:Class rdf:about="http://www.example.org/RDViNDsq0m29RtsQhJHQEvC">
         <rdfs:subClassOf rdf:resource="http://www.example.org/RcLrFr5ZQIUXtlhVGkYPGm"/>
         <rdfs:label>sss</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/RFlBlJYqYlvQDxHLGcpr7k -->
+
+    <owl:Class rdf:about="http://www.example.org/RFlBlJYqYlvQDxHLGcpr7k">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005623"/>
+        <rdfs:label>celler</rdfs:label>
     </owl:Class>
     
 
