@@ -113,12 +113,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/GO_0016088 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/GO_0016088"/>
-    
-
-
     <!-- http://purl.obolibrary.org/NCBITaxon_2 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/NCBITaxon_2"/>
@@ -2007,43 +2001,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0030284"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_50864 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_50864">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33232"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#sensitizer_of"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/GO_0016088"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#sensitizer_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/GO_0016088"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_50905 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_50905">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#destabilizer_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009790"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
     </rdf:Description>
     
 
@@ -4973,31 +4930,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_67170 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_67170">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33232"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#activator_of"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0016525"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#activator_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0016525"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:comment>It is not clear to me how this differs from angiogenesis inhibitor -- cjm</rdfs:comment>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_67195 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_67195">
@@ -5040,30 +4972,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#agonist_of"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0003708"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_67268 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_67268">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_64947"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#inhibitor_of"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0008907"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chiro#inhibitor_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0008907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -5815,12 +5723,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GO_0008907 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008907"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GO_0009008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009008"/>
@@ -5857,12 +5759,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GO_0009790 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009790"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GO_0015930 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0015930"/>
@@ -5878,12 +5774,6 @@
     <!-- http://purl.obolibrary.org/obo/GO_0016206 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016206"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0016525 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016525"/>
     
 
 
@@ -6226,6 +6116,46 @@
     <!-- http://purl.obolibrary.org/obo/PR_000025350 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000025350"/>
+    
+
+
+    <!-- http://www.example.org/R7LlLQapLQHJifywbZgDEE1 -->
+
+    <owl:Class rdf:about="http://www.example.org/R7LlLQapLQHJifywbZgDEE1">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/RDViNDsq0m29RtsQhJHQEvC"/>
+        <rdfs:label>ccxycy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/RDViNDsq0m29RtsQhJHQEvC -->
+
+    <owl:Class rdf:about="http://www.example.org/RDViNDsq0m29RtsQhJHQEvC">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/RcLrFr5ZQIUXtlhVGkYPGm"/>
+        <rdfs:label>sss</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/RcLrFr5ZQIUXtlhVGkYPGm -->
+
+    <owl:Class rdf:about="http://www.example.org/RcLrFr5ZQIUXtlhVGkYPGm">
+        <rdfs:label>kamil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_67170">
+        <rdfs:comment>It is not clear to me how this differs from angiogenesis inhibitor -- cjm</rdfs:comment>
+    </rdf:Description>
 </rdf:RDF>
 
 
