@@ -5960,6 +5960,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0000118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000118"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0000501 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000501"/>
@@ -6118,6 +6124,15 @@
     <owl:Class rdf:about="http://www.example.org/RFlBlJYqYlvQDxHLGcpr7k">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005623"/>
         <rdfs:label>celler</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/RQwhS7FKp6hAiRpALSHtHP -->
+
+    <owl:Class rdf:about="http://www.example.org/RQwhS7FKp6hAiRpALSHtHP">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <rdfs:label>domal</rdfs:label>
     </owl:Class>
     
 
