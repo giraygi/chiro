@@ -6050,6 +6050,15 @@
     
 
 
+    <!-- http://www.example.org/R70CPZRFNIdaCioHCUBtl8D -->
+
+    <owl:Class rdf:about="http://www.example.org/R70CPZRFNIdaCioHCUBtl8D">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006915"/>
+        <rdfs:label>yinemi</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.example.org/R7LlLQapLQHJifywbZgDEE1 -->
 
     <owl:Class rdf:about="http://www.example.org/R7LlLQapLQHJifywbZgDEE1">
@@ -6064,6 +6073,15 @@
     <owl:Class rdf:about="http://www.example.org/R86C4o85YNaUdimxA7i8x9N">
         <rdfs:subClassOf rdf:resource="http://www.example.org/R9fKFzKerhG956CWRsbLZep"/>
         <rdfs:label>dfgdd</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/R8qbfcxHQ3ExlDLk75DrtKY -->
+
+    <owl:Class rdf:about="http://www.example.org/R8qbfcxHQ3ExlDLk75DrtKY">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/R70CPZRFNIdaCioHCUBtl8D"/>
+        <rdfs:label>ozle</rdfs:label>
     </owl:Class>
     
 
