@@ -6074,6 +6074,15 @@
     
 
 
+    <!-- http://www.example.org/R85YqKhqLzvSJorwFL1E3yC -->
+
+    <owl:Class rdf:about="http://www.example.org/R85YqKhqLzvSJorwFL1E3yC">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <rdfs:label>deneme</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.example.org/R86C4o85YNaUdimxA7i8x9N -->
 
     <owl:Class rdf:about="http://www.example.org/R86C4o85YNaUdimxA7i8x9N">
