@@ -6083,6 +6083,15 @@
     
 
 
+    <!-- http://www.example.org/R8JT92RIK81PivbAMAFgZ7T -->
+
+    <owl:Class rdf:about="http://www.example.org/R8JT92RIK81PivbAMAFgZ7T">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001128"/>
+        <rdfs:label>giray</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.example.org/R8qbfcxHQ3ExlDLk75DrtKY -->
 
     <owl:Class rdf:about="http://www.example.org/R8qbfcxHQ3ExlDLk75DrtKY">
