@@ -6137,6 +6137,15 @@
     
 
 
+    <!-- http://www.example.org/RJ8KVuiJrojAFEanGj0MBk -->
+
+    <owl:Class rdf:about="http://www.example.org/RJ8KVuiJrojAFEanGj0MBk">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000013736"/>
+        <rdfs:label>sdfsfs</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.example.org/RQwhS7FKp6hAiRpALSHtHP -->
 
     <owl:Class rdf:about="http://www.example.org/RQwhS7FKp6hAiRpALSHtHP">
