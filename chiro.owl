@@ -6083,6 +6083,15 @@
     
 
 
+    <!-- http://www.example.org/R8JT92RIK81PivbAMAFgZ7T -->
+
+    <owl:Class rdf:about="http://www.example.org/R8JT92RIK81PivbAMAFgZ7T">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001128"/>
+        <rdfs:label>giray</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.example.org/R8qbfcxHQ3ExlDLk75DrtKY -->
 
     <owl:Class rdf:about="http://www.example.org/R8qbfcxHQ3ExlDLk75DrtKY">
@@ -6124,6 +6133,15 @@
     <owl:Class rdf:about="http://www.example.org/RFlBlJYqYlvQDxHLGcpr7k">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005623"/>
         <rdfs:label>celler</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/RJ8KVuiJrojAFEanGj0MBk -->
+
+    <owl:Class rdf:about="http://www.example.org/RJ8KVuiJrojAFEanGj0MBk">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000013736"/>
+        <rdfs:label>sdfsfs</rdfs:label>
     </owl:Class>
     
 
