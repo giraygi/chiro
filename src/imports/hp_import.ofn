@@ -1,0 +1,83 @@
+Prefix(:=<http://purl.obolibrary.org/obo/go/extensions/imports/hp_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/go/extensions/imports/hp_import.owl>
+
+Declaration(Class(<http://purl.obolibrary.org/obo/HP_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HP_0000118>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HP_0000478>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HP_0000501>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HP_0000707>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HP_0001626>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HP_0011025>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HP_0011675>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HP_0012373>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HP_0100022>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HP_0100660>))
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/HP_0000001> (All)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0000001> "All"^^xsd:string)
+
+# Class: <http://purl.obolibrary.org/obo/HP_0000118> (Phenotypic abnormality)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0000118> "Phenotypic abnormality"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0000118> <http://purl.obolibrary.org/obo/HP_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/HP_0000478> (Abnormality of the eye)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0000478> "Abnormality of the eye"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0000478> <http://purl.obolibrary.org/obo/HP_0000118>)
+
+# Class: <http://purl.obolibrary.org/obo/HP_0000501> (Glaucoma)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0000501> "Glaucoma"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0000501> <http://purl.obolibrary.org/obo/HP_0012373>)
+
+# Class: <http://purl.obolibrary.org/obo/HP_0000707> (Abnormality of the nervous system)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0000707> "Abnormality of the nervous system"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0000707> <http://purl.obolibrary.org/obo/HP_0000118>)
+
+# Class: <http://purl.obolibrary.org/obo/HP_0001626> (Abnormality of the cardiovascular system)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0001626> "Abnormality of the cardiovascular system"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0001626> <http://purl.obolibrary.org/obo/HP_0000118>)
+
+# Class: <http://purl.obolibrary.org/obo/HP_0011025> (Abnormality of cardiovascular system physiology)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0011025> "Abnormality of cardiovascular system physiology"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0011025> <http://purl.obolibrary.org/obo/HP_0001626>)
+
+# Class: <http://purl.obolibrary.org/obo/HP_0011675> (Arrhythmia)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0011675> "Arrhythmia"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0011675> <http://purl.obolibrary.org/obo/HP_0011025>)
+
+# Class: <http://purl.obolibrary.org/obo/HP_0012373> (Abnormal eye physiology)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0012373> "Abnormal eye physiology"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0012373> <http://purl.obolibrary.org/obo/HP_0000478>)
+
+# Class: <http://purl.obolibrary.org/obo/HP_0100022> (Abnormality of movement)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0100022> "Abnormality of movement"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0100022> <http://purl.obolibrary.org/obo/HP_0000707>)
+
+# Class: <http://purl.obolibrary.org/obo/HP_0100660> (Dyskinesia)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0100660> "Dyskinesia"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0100660> <http://purl.obolibrary.org/obo/HP_0100022>)
+
+
+)

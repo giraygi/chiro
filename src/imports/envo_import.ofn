@@ -1,0 +1,501 @@
+Prefix(:=<http://purl.obolibrary.org/obo/chiro/imports/envo_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/chiro/imports/envo_import.owl>
+
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00000000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00000002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00000022>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00000023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00000029>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00000062>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00000063>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00000070>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00000428>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00000446>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00000856>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00002001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00002006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00002011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00002018>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00002186>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00002193>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00002264>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00002297>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00003064>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00010483>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_0010001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000219>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000248>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000249>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000254>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000266>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000268>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000451>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000537>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000618>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000629>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000634>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000655>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000656>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000677>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000678>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000679>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000687>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000689>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000690>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000691>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000692>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000693>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000694>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000695>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000696>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000697>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000698>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000699>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000700>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000702>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000707>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000708>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000709>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000710>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000711>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000712>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000713>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000714>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000715>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000716>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000717>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000718>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000730>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_02500000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_02500001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_02500002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_02500005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_02500011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_02500012>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_02500013>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_02500017>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_02500027>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_02500032>))
+Declaration(Class(<http://purl.obolibrary.org/obo/RO_0002577>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000116>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000117>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000119>))
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000002> (continuant)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000002> "An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000002> "continuant"@en)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000004> (independent continuant)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000004> "A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000004> "independent continuant"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/BFO_0000002>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000040> (material entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000040> "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000040> "material entity"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000040> <http://purl.obolibrary.org/obo/BFO_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00000000> (geographic feature)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_00000000> "geographic feature"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000000> <http://purl.obolibrary.org/obo/ENVO_00002297>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00000002> (anthropogenic geographic feature)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_00000002> "anthropogenic geographic feature"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000002> <http://purl.obolibrary.org/obo/ENVO_00000000>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00000022> (river)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_00000022> "river"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000022> <http://purl.obolibrary.org/obo/ENVO_00000023>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00000023> (stream)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_00000023> "stream"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000023> <http://purl.obolibrary.org/obo/ENVO_00000029>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00000029> (watercourse)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_00000029> "watercourse"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000029> <http://purl.obolibrary.org/obo/ENVO_01000618>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00000062> (populated place)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_00000062> "populated place"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000062> <http://purl.obolibrary.org/obo/ENVO_00000070>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00000063> (water body)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_00000063> "water body"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000063> <http://purl.obolibrary.org/obo/ENVO_00000000>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00000070> (constructed feature)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_00000070> "constructed feature"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000070> <http://purl.obolibrary.org/obo/ENVO_00000002>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00000428> (biome)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_00000428> "biome"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000428> <http://purl.obolibrary.org/obo/ENVO_01000254>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00000446> (terrestrial biome)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_00000446> "terrestrial biome"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000446> <http://purl.obolibrary.org/obo/ENVO_00000428>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00000856> (city)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_00000856> "city"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000856> <http://purl.obolibrary.org/obo/ENVO_00000062>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00002001> (waste water)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_00002001> "waste water"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002001> <http://purl.obolibrary.org/obo/ENVO_00002186>)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002001> <http://purl.obolibrary.org/obo/ENVO_00002264>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00002006> (water)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_00002006> "water"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002006> <http://purl.obolibrary.org/obo/ENVO_00010483>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00002011> (fresh water)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_00002011> "fresh water"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002011> <http://purl.obolibrary.org/obo/ENVO_00002006>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00002018> (sewage)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_00002018> "sewage"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002018> <http://purl.obolibrary.org/obo/ENVO_00002001>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00002186> (contaminated water)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_00002186> "contaminated water"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002186> <http://purl.obolibrary.org/obo/ENVO_00002006>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00002193> (pulp-bleaching waste water)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_00002193> "pulp-bleaching waste water"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002193> <http://purl.obolibrary.org/obo/ENVO_00002001>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00002264> (waste)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_00002264> "waste"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002264> <http://purl.obolibrary.org/obo/ENVO_0010001>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00002297> (environmental feature)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_00002297> "environmental feature"^^xsd:string)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00003064> (drinking water)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_00003064> "drinking water"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00003064> <http://purl.obolibrary.org/obo/ENVO_00002011>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00010483> (environmental material)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_00010483> "environmental material"^^xsd:string)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_0010001> (anthropogenic environmental material)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_0010001> "anthropogenic environmental material"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_0010001> <http://purl.obolibrary.org/obo/ENVO_00010483>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000219> (anthropogenic terrestrial biome)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000219> "anthropogenic terrestrial biome"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000219> <http://purl.obolibrary.org/obo/ENVO_00000446>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000248> (dense settlement biome)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000248> "dense settlement biome"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000248> <http://purl.obolibrary.org/obo/ENVO_01000219>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000249> (urban biome)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000249> "urban biome"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000249> <http://purl.obolibrary.org/obo/ENVO_01000248>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000254> (environmental system)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000254> "environmental system"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000254> <http://purl.obolibrary.org/obo/RO_0002577>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000266> (water vapour)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000266> "water vapour"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000266> <http://purl.obolibrary.org/obo/ENVO_00010483>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000268> (atmospheric water vapour)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000268> "atmospheric water vapour"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000268> <http://purl.obolibrary.org/obo/ENVO_01000266>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000451> (atmospheric carbon dioxide)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000451> "atmospheric carbon dioxide")
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000451> <http://purl.obolibrary.org/obo/ENVO_00010483>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000537> (atmospheric ozone)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000537> "atmospheric ozone")
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000537> <http://purl.obolibrary.org/obo/ENVO_00010483>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000618> (lotic water body)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000618> "lotic water body"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000618> <http://purl.obolibrary.org/obo/ENVO_00000063>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000629> (climate change)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000629> "climate change"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000629> <http://purl.obolibrary.org/obo/ENVO_02500000>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000634> (volcanic eruption)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000634> "volcanic eruption"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000634> <http://purl.obolibrary.org/obo/ENVO_02500000>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000655> (explosive eruption)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000655> "explosive eruption"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000655> <http://purl.obolibrary.org/obo/ENVO_01000634>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000656> (effusive eruption)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000656> "effusive eruption"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000656> <http://purl.obolibrary.org/obo/ENVO_01000634>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000677> (earthquake)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000677> "earthquake"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000677> <http://purl.obolibrary.org/obo/ENVO_02500000>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000678> (tectonic earthquake)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000678> "tectonic earthquake"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000678> <http://purl.obolibrary.org/obo/ENVO_01000677>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000679> (megathrust earthquake)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000679> "megathrust earthquake"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000679> <http://purl.obolibrary.org/obo/ENVO_01000678>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000687> (coast)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000687> "coast"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000687> <http://purl.obolibrary.org/obo/ENVO_00000000>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000689> (tsunami)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000689> "tsunami"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000689> <http://purl.obolibrary.org/obo/ENVO_02500000>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000690> (mass wasting)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000690> "mass wasting"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000690> <http://purl.obolibrary.org/obo/ENVO_02500000>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000691> (avalanche)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000691> "avalanche"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000691> <http://purl.obolibrary.org/obo/ENVO_01000696>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000692> (landslide process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000692> "landslide process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000692> <http://purl.obolibrary.org/obo/ENVO_01000690>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000693> (rockfall)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000693> "rockfall"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000693> <http://purl.obolibrary.org/obo/ENVO_01000690>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000694> (geological subsidence)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000694> "geological subsidence"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000694> <http://purl.obolibrary.org/obo/ENVO_02500000>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000695> (mudslide)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000695> "mudslide"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000695> <http://purl.obolibrary.org/obo/ENVO_01000690>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000696> (mass wasting flow)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000696> "mass wasting flow"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000696> <http://purl.obolibrary.org/obo/ENVO_01000690>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000697> (mudflow)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000697> "mudflow"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000697> <http://purl.obolibrary.org/obo/ENVO_01000696>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000698> (debris flow)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000698> "debris flow"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000698> <http://purl.obolibrary.org/obo/ENVO_01000696>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000699> (lahar)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000699> "lahar"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000699> <http://purl.obolibrary.org/obo/ENVO_01000697>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000700> (sturzstrom)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000700> "sturzstrom"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000700> <http://purl.obolibrary.org/obo/ENVO_01000692>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000702> (ash fall process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000702> "ash fall process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000702> <http://purl.obolibrary.org/obo/ENVO_02500000>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000707> (coastal flooding)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000707> "coastal flooding"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000707> <http://purl.obolibrary.org/obo/ENVO_02500002>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000708> (riverine flooding)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000708> "riverine flooding"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000708> <http://purl.obolibrary.org/obo/ENVO_02500002>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000709> (flash flooding)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000709> "flash flooding"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000709> <http://purl.obolibrary.org/obo/ENVO_02500002>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000710> (flood)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000710> "flood"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000710> <http://purl.obolibrary.org/obo/ENVO_00000063>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000711> (coastal flood)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000711> "coastal flood"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000711> <http://purl.obolibrary.org/obo/ENVO_01000710>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000712> (riverine flood)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000712> "riverine flood"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000712> <http://purl.obolibrary.org/obo/ENVO_01000710>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000713> (flash flood)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000713> "flash flood"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000713> <http://purl.obolibrary.org/obo/ENVO_01000710>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000714> (storm surge)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000714> "storm surge"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000714> <http://purl.obolibrary.org/obo/ENVO_01000711>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000715> (metotsunami)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000715> "metotsunami"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000715> <http://purl.obolibrary.org/obo/ENVO_01000689>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000716> (storm surge process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000716> "storm surge process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000716> <http://purl.obolibrary.org/obo/ENVO_01000707>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000717> (areal flooding)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000717> "areal flooding"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000717> <http://purl.obolibrary.org/obo/ENVO_02500002>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000718> (urban flooding)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000718> "urban flooding"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000718> <http://purl.obolibrary.org/obo/ENVO_02500002>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000730> (lava flow process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000730> "lava flow process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000730> <http://purl.obolibrary.org/obo/ENVO_02500000>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_02500000> (environmental system process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_02500000> "environmental system process"@en)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_02500001> (desertification)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_02500001> "desertification"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_02500001> <http://purl.obolibrary.org/obo/ENVO_02500000>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_02500002> (flooding)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_02500002> "flooding"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_02500002> <http://purl.obolibrary.org/obo/ENVO_02500000>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_02500005> (land degradation)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_02500005> "land degradation")
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_02500005> <http://purl.obolibrary.org/obo/ENVO_02500000>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_02500011> (afforestation)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_02500011> "afforestation")
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_02500011> <http://purl.obolibrary.org/obo/ENVO_02500000>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_02500012> (deforestation)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_02500012> "deforestation")
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_02500012> <http://purl.obolibrary.org/obo/ENVO_02500000>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_02500013> (reforestation)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_02500013> "reforestation")
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_02500013> <http://purl.obolibrary.org/obo/ENVO_02500032>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_02500017> (anthropogenic reforestation)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_02500017> "anthropogenic reforestation")
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_02500017> <http://purl.obolibrary.org/obo/ENVO_02500013>)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_02500017> <http://purl.obolibrary.org/obo/ENVO_02500027>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_02500027> (anthropogenic environmental process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_02500027> "anthropogenic environmental process")
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_02500027> <http://purl.obolibrary.org/obo/ENVO_02500000>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_02500032> (revegetation)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_02500032> "revegetation")
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_02500032> <http://purl.obolibrary.org/obo/ENVO_02500000>)
+
+# Class: <http://purl.obolibrary.org/obo/RO_0002577> (system)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002577> "A material entity consisting of multiple components that are causally integrated.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/RO_0002577> "May be replaced by a BFO class, as discussed in http://www.jbiomedsem.com/content/4/1/43")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002577> "Chris Mungall")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/RO_0002577> "http://www.jbiomedsem.com/content/4/1/43")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002577> "system")
+SubClassOf(<http://purl.obolibrary.org/obo/RO_0002577> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
+
+)
